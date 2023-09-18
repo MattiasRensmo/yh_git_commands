@@ -31,21 +31,46 @@
         </li>
       </ul>
       <article>
-        <h2>De vanligaste komandon</h2>
+        <h2>Vanliga arbetsflöden</h2>
+        <h3>Spara ändringar till Github</h3>
+      </article>
+      <p><code>git add .</code>Lägger till alla filer i staging area</p>
+      <p><code>git commit - "[message]"</code>Skriv ett bra meddelande</p>
+      <p><code>git push</code>Skickar koden till Github</p>
+      <p></p>
+      <p><code></code></p>
+      <p></p>
+      <article>
+        <h2>De vanligaste komandona</h2>
+
         <h3>Create repositories</h3>
         <p><code>git init</code></p>
         <p>Turn an existing directory into a git repository</p>
-        <p>
-          <code>git clone [url]</code>
-        </p>
+        <p><code>git clone [url]</code></p>
         <p>
           Clone (download) a repository that already exists on GitHub, including all
           of the files, branches, and commits
         </p>
-        <p>
-          <code>git add [file/.]</code>
-        </p>
+
+        <h3>Make changes</h3>
+        <p><code>git add [file/.]</code></p>
         <p>Snapshots the file in preparation for versioning. Period (.) means all</p>
+        <p><code>git commit -m "[message]"</code></p>
+        <p>Records file snapshots permanently in version history</p>
+
+        <h3>Synchronize changes</h3>
+        <p><code>git fetch</code></p>
+        <p>Downloads all history from the remote tracking branches</p>
+        <p><code>git merge</code></p>
+        <p>Combines remote tracking branches into current local branch</p>
+        <p><code>git push</code></p>
+        <p>Uploads all local branch commits to GitHub</p>
+        <p><code>git pull</code></p>
+        <p>
+          Updates your current local working branch with all new commits from the
+          corresponding remote branch on GitHub. git pull is a combination of
+          <code>git fetch</code> and <code>git merge</code>
+        </p>
       </article>
     </main>
   </body>
