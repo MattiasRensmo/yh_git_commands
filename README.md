@@ -35,6 +35,8 @@
 
 `git push` Skickar lådan till GitHub
 
+---
+
 ## De vanligaste komandona
 
 ### Create repositories
