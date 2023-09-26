@@ -7,12 +7,6 @@
 
 ## Vanliga arbetsflöden
 
-### Create repositories
-
-`git clone [url]` Hämtar lådan från länken och lägger i en undermapp
-
-`cd [mappnamn]` Gå in i mappen du precis laddade ner
-
 ### Använda terminalen
 
 **Se till att du alltid är i rätt mapp innan du börjar använda git!**
@@ -22,6 +16,14 @@
 `cd [mappnamn]` Gå till undermapp som heter \[mappnamn\]
 
 `cd ..` Gå till överordnad mapp
+
+---
+
+### Create repositories
+
+`git clone [url]` Hämtar lådan från länken och lägger i en undermapp
+
+`cd [mappnamn]` Gå in i mappen du precis laddade ner
 
 ### Ladda ner ändringar
 
