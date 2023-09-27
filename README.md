@@ -37,6 +37,23 @@
 
 `git push` Skickar lådan till GitHub
 
+### Branches
+
+#### Lista branches
+
+`git branch -a` Listar alla branches
+
+#### Skapa och byt mellan branches
+
+`git checkout -b [branch name]` Skapa en ny branch och byt till den
+
+`git checkout [branch name]` Byt till [branch name]
+
+#### Samanfoga branches
+
+1.  Byt till branchen du vill samanfoga in till
+2.  `git merge [branch]` Ange branchen du vill lägg in i branchen du står i
+
 ---
 
 ## De vanligaste komandona
