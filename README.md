@@ -17,19 +17,33 @@
 ---
 
 ### Create repositories
+
 `git clone [url]` Hämtar lådan från länken och lägger i en undermapp
+
 `cd [mappnamn]` Gå in i mappen du precis laddade ner
+
 ### Ladda ner ändringar
+
 `git pull` Ladda ner ändringar från GitHub till din dator. Viktigt när det är flera som jobbar med samma kod.
+
 ### Spara ändringar till Github
+
 `git add .` Lägger till alla filer i lådan
+
 `git commit -m "[message]"` Ställer lådan i arkivet
+
 `git push` Skickar lådan till GitHub
+
 ### Branches
+
 `git branch -a` Listar alla branches
+
 `git checkout -b [branch name]` Skapa en ny branch och byt till den
+
 `git checkout [branch name]` Byt till [branch name]
+
 `git merge [branch]` Ange branchen du vill lägg in i branchen du står i
+
 
 ---
 
