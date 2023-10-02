@@ -8,55 +8,33 @@
 ## Vanliga arbetsflöden
 
 ### Använda terminalen
-
 **Se till att du alltid är i rätt mapp innan du börjar använda git!**
 
 `dir` Visar alla filer och mappar i nuvarnade mapp
-
 `cd [mappnamn]` Gå till undermapp som heter \[mappnamn\]
-
 `cd ..` Gå till överordnad mapp
 
 ---
 
 ### Create repositories
-
 `git clone [url]` Hämtar lådan från länken och lägger i en undermapp
-
 `cd [mappnamn]` Gå in i mappen du precis laddade ner
-
 ### Ladda ner ändringar
-
 `git pull` Ladda ner ändringar från GitHub till din dator. Viktigt när det är flera som jobbar med samma kod.
-
 ### Spara ändringar till Github
-
 `git add .` Lägger till alla filer i lådan
-
 `git commit -m "[message]"` Ställer lådan i arkivet
-
 `git push` Skickar lådan till GitHub
-
 ### Branches
-
-#### Lista branches
-
 `git branch -a` Listar alla branches
-
-#### Skapa och byt mellan branches
-
 `git checkout -b [branch name]` Skapa en ny branch och byt till den
-
 `git checkout [branch name]` Byt till [branch name]
-
-#### Samanfoga branches
-
-1.  Byt till branchen du vill samanfoga in till
-2.  `git merge [branch]` Ange branchen du vill lägg in i branchen du står i
+`git merge [branch]` Ange branchen du vill lägg in i branchen du står i
 
 ---
 
-## De vanligaste komandona
+# Fler komandon
+***Du behöver inte använda de här komandona alls för att kunna arbeta med Git, använd de ovan istället***
 
 ### Create repositories
 
